@@ -1,0 +1,77 @@
+.window-close, .notification-close {
+    background-image: url("close-window.svg");
+    background-size: 36px;
+    height: 36px;
+    width: 36px;
+}
+
+.window-close:hover, .notification-close:hover {
+    background-image: url("close-window-hover.svg");
+}
+
+.ripple-box {
+    background-image: url("corner-ripple-ltr.png");
+}
+
+.ripple-box:rtl {
+    background-image: url("corner-ripple-rtl.png");
+}
+
+.toggle-switch-us {
+    background-image: url("toggle-off-us.svg");
+}
+.toggle-switch-us:checked {
+    background-image: url("toggle-on-us.svg");
+}
+
+.toggle-switch-intl {
+    background-image: url("toggle-off-intl.svg");
+}
+
+.toggle-switch-intl:checked {
+    background-image: url("toggle-on-intl.svg");
+}
+
+.app-filter {
+    padding-left:20px;
+    color: rgba(255,255,255,.6);
+}
+
+.app-filter:selected,
+.app-filter:selected:hover {
+    color: #fff;
+    background-image: url("arrow-right-hover.svg");
+    background-position: 0 11px;
+}
+
+.app-filter:hover {
+    background-image: url("arrow-right.svg");
+    background-position: 0 11px;
+    color: rgba(255,255,255,.6);
+}
+
+.app-filter:rtl {
+    padding-right:20px;
+    color: rgba(255,255,255,.6);
+}
+
+.app-filter:rtl:selected,
+.app-filter:rtl:selected:hover {
+    color: #fff;
+    background-image: url("arrow-left-hover.svg");
+    background-position: 235px 11px;
+}
+
+.app-filter:rtl:hover {
+    background-image: url("arrow-left.svg");
+    background-position: 235px 11px;
+    color: rgba(255,255,255,.6);
+}
+
+.ws-switcher-active-up {
+    background-image: url("ws-switch-arrow-up.svg");
+}
+
+.ws-switcher-active-down {
+    background-image: url("ws-switch-arrow-down.svg");
+}
