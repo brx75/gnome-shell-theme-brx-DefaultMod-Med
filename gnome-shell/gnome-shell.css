@@ -25,7 +25,8 @@ stage {
 /* Panel */
 
 #panel {
-    background-color: #616161; 
+    /* background-color: #616161;  */
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: bold;
     height: 1.86em;
 }
