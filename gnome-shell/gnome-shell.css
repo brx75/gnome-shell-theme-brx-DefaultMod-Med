@@ -1,8 +1,11 @@
 /* Import original gnome-shell theme */
-@import url("original/gnome-shell.css");
+@import url("original-3.8/gnome-shell.css");
 
 /* Images */
 @import url("img/images.css");
+
+/* Extensions */
+@import url("extensions/dash-to-dock.css");
 
 /* Tweaks */
 * {
@@ -82,6 +85,7 @@ stage {
     background-color: rgba(255,255,255,0.1);
 }
 
+/*
 #dash .app-well-app.running {
     background-image: url("img/running-app-dash.svg");
     background-size: contain;
@@ -91,6 +95,7 @@ stage {
     background-image: url("img/running-app-dash-right.svg");
     background-size: contain;
 }
+*/
 
 .app-well-app > .overview-icon,
 .remove-favorite > .overview-icon,
@@ -463,4 +468,8 @@ StScrollBar StButton#hhandle {
 
 .panel-button {
     -natural-hpadding: 6px;
+}
+
+.dash-item-container > StButton {
+    padding: 0px 0px;
 }
